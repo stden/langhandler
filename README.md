@@ -1,9 +1,9 @@
 langhandler
 ===========
 
-LangHandler for Yii framework
+Автоматическое определение языка для Yii framework
 
-## Installation ##
+## Установка и настройка ##
 
 Установка прямо из репозитория:
 `git submodule add git@github.com:stden/langhandler.git application/protected/extensions/langhandler`
