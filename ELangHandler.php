@@ -5,7 +5,7 @@
  */
 class ELangHandler extends CApplicationComponent
 {
-    public $languages = array();
+    public $languages = [];
     public $strict = false;
 
     public function init()

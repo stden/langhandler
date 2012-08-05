@@ -5,7 +5,7 @@
  */
 class ELangCUrlManager extends CUrlManager
 {
-    public function createUrl($route, $params = array(), $ampersand = '&')
+    public function createUrl($route, $params = [], $ampersand = '&')
     {
         if (!isset($params['lang']))
             $params['lang'] = Yii::app()->GetLanguage();
